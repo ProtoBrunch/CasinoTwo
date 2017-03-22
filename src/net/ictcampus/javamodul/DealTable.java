@@ -36,7 +36,7 @@ class DealTable {
 
     // If called, this Method tries to add a Player-Object to the Player[]-Array. If the Array is full, a text is printed to the console that the Array is full.
     void addPlayer(Player player){
-        if(numbersOfPeopleAtTable < 10){
+        if(numbersOfPeopleAtTable < 10 && player != null){
             players[numbersOfPeopleAtTable] = player;
             numbersOfPeopleAtTable++;
         }else{
@@ -47,10 +47,4 @@ class DealTable {
     void showInfos(){
         textausgaben.showTableInfos(nameOfTable, activity, croupier, numbersOfPeopleAtTable);
     }
-
-    void newFunction(){
-        System.out.println("stuff");
-    }
-
-    //TEsting chnages
 }
