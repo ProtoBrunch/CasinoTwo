@@ -14,6 +14,7 @@ static Benutzereingaben benutzereingaben = new Benutzereingaben();
         Player jonas = new Player("Wittwer", "Jonas", 1994);
         Player robin = new Player("Berberat", "Robin", 1991);
         Player damian = new Player("Schneuwly","Damian",1992);
+        Player silas = new Player("Meier","silas",1997);
 
         Employee michael = new Employee("Beck","Michael",1990);
         Employee melanie = new Employee("Stucki","Melanie", 1993);
