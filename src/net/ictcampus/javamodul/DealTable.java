@@ -12,6 +12,7 @@ class DealTable {
     private Player[] players = new Player[10];
     private int pot;
     private int numbersOfPeopleAtTable;
+    private int gugus;
 
     DealTable(String nameOfTable,Game game, Employee employee){
         this.nameOfTable = nameOfTable;
